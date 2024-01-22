@@ -10,7 +10,7 @@ $kategori = query("SELECT * FROM kategori");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animal</title>
+    <title>Public</title>
     <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/public.style.css">
 
@@ -19,9 +19,9 @@ $kategori = query("SELECT * FROM kategori");
     <div class="container-fluid p-0">
         <div class="row">
             <div class="col-12">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-secondary">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="index.php">Bunga Dinda</a>
+                        <a class="navbar-brand" href="index.php">Coffee Shop</a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                         </button>
@@ -33,7 +33,7 @@ $kategori = query("SELECT * FROM kategori");
 
                             <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle menu-binatang" href="#" id="binatang-dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Bunga
+                                Kopi
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="binatang-dropdown">
 

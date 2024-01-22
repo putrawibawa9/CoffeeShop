@@ -24,13 +24,13 @@ if(isset($_POST['submit'])){
         echo "
             <script>
             alert('data berhasil diubah');
-            document.location.href = 'bunga.php';
+            document.location.href = 'kopi.php';
             </script>
         ";
     }else{
         echo " <script>
         alert('data gagal diubah');
-        document.location.href = 'bunga.php';
+        document.location.href = 'kopi.php';
         </script>
     ";
 
@@ -41,7 +41,7 @@ if(isset($_POST['submit'])){
 <div class="container">
   <div class="row">
     <div class="col-12 p-3 bg-white">
-        <h3>Edit Nama Bunga</h3>
+        <h3>Edit Nama Kopi</h3>
 
 
         <form method="post" enctype="multipart/form-data">
@@ -60,24 +60,24 @@ if(isset($_POST['submit'])){
 
 
             <div class="mb-3">
-                <label class="form-label">Nama Bunga</label>
+                <label class="form-label">Nama Kopi</label>
                 <input type="text" name="nama_binatang" class="form-control" value="<?= $binatang['nama_binatang']?>">
             </div>
             
             
             <div class="mb-3">
-                <label class="form-label">Keterangan Bunga</label>
+                <label class="form-label">Keterangan Kopi</label>
             <textarea class="form-control" name="keterangan_binatang" rows="3" placeholder="Keterangan Binatang"  required><?= $binatang['keterangan_binatang']?></textarea>
             </div>
 
             <img src="../img/<?= $binatang['gambar'] ?>" width="100px" height="100px">
 
             <div class="mb-3">
-                <label for="gambar" class="form-label">Gambar Binatang</label>
+                <label for="gambar" class="form-label">Gambar Kopi</label>
                 <input type="file" name="gambar" class="form-control">
             </div>
 
-            <a href="bunga.php" class="btn btn-success" >Kembali</a>
+            <a href="kopi.php" class="btn btn-success" >Kembali</a>
             <button type="submit" class="btn btn-primary" name="submit" >Simpan</button>
         </form>
     </div>

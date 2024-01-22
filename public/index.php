@@ -12,13 +12,13 @@ $binatang = query("SELECT * FROM binatang JOIN kategori ON binatang.id_kategori 
         <div id="carouselExample" class="carousel slide carousel-fade h-100">
             <div class="carousel-inner h-100">
                 <div class="carousel-item h-100 active">
-                    <img src="../img/bunga2.jpg" class="d-block w-100 h-70 object-fit-cover" alt="Gambar 1">
+                    <img src="../img/nonkopi1.jpg" class="d-block w-100 h-70 object-fit-cover" alt="Gambar 1">
                 </div>
                 <div class="carousel-item h-100">
-                    <img src="../img/bunga1.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Gambar 2">
+                    <img src="../img/kopi1.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Gambar 2">
                 </div>
                 <div class="carousel-item h-100">
-                    <img src="../img/bunga3.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Gambar 3">
+                    <img src="../img/kopi3.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Gambar 3">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -35,7 +35,7 @@ $binatang = query("SELECT * FROM binatang JOIN kategori ON binatang.id_kategori 
 
             <div class="col-12 p-5">
                     <h1 class="display-4"> Home</h1>
-                    <p align="justify">Welcome to our enchanting world of floral exploration! Our website is devoted to empowering kids with the joy of discovering various flower species. Through an interactive and captivating approach, we offer a comprehensive platform for children to explore the vibrant diversity of the floral kingdom. From the petals of blooming gardens to the delicate blossoms in meadows, our user-friendly interface guides young minds in recognizing and learning about every type of flower imaginable. Whether vibrant, fragrant, exotic, or simple, our educational resources and interactive tools turn the process of flower identification into a delightful and engaging adventure. Join us on this educational journey, where curiosity blossoms into discovery, fostering a lifelong love and appreciation for the incredible world of flowers.</p>
+                    <p align="justify">Step into the warm and aromatic embrace of our cozy coffee shop, where the rich scent of freshly ground beans dances in the air. Nestled in the heart of the city, our welcoming space invites you to unwind and savor the perfect cup of coffee. From the comforting hum of espresso machines to the soothing melody of soft jazz, every visit is an immersive experience. Our skilled baristas craft each cup with precision, ensuring that every sip is a flavorful journey. Whether you prefer the bold intensity of a dark roast or the velvety smoothness of a latte, our diverse menu caters to every coffee connoisseur's taste. The inviting ambiance, coupled with the subtle buzz of conversations, makes our coffee shop not just a place for a pick-me-up but a haven for those seeking a moment of respite in the delightful ritual of coffee enjoyment.</p>
                 </div>
               
 <?php

@@ -15,13 +15,13 @@ $nama_kategori = query("SELECT nama_kategori FROM kategori WHERE id_kategori = $
         <div id="carouselExample" class="carousel slide carousel-fade h-100">
             <div class="carousel-inner h-100">
                 <div class="carousel-item h-100 active">
-                    <img src="../img/bunga2.jpg" class="d-block w-100 h-70 object-fit-cover" alt="Gambar 1">
+                    <img src="../img/kopi1.jpg" class="d-block w-100 h-70 object-fit-cover" alt="Gambar 1">
                 </div>
                 <div class="carousel-item h-100">
-                    <img src="../img/bunga1.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Gambar 2">
+                    <img src="../img/nonkopi1.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Gambar 2">
                 </div>
                 <div class="carousel-item h-100">
-                    <img src="../img/bunga3.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Gambar 3">
+                    <img src="../img/kopi3.jpg" class="d-block w-100 h-100 object-fit-cover" alt="Gambar 3">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -40,9 +40,9 @@ $nama_kategori = query("SELECT nama_kategori FROM kategori WHERE id_kategori = $
                 <div class="col-12 p-5">
                 <h1 class="display-4 mt-3 mb-5"> Kategori - <?= $nama_kategori['nama_kategori']?></h1>
                 
-                <div class="row">
+                <div class="row ">
                   <?php foreach($binatang as $row):?>
-                    <div class="col-md-4">
+                    <div class="col-md-4 mb-5">
                         <div class="card">
                             <div class="card-body text-center">
                                 <img src="../img/<?= $row['gambar']?>" alt="" class="img-fluid" > 

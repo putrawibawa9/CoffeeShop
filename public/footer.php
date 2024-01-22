@@ -1,7 +1,7 @@
 <div class="row">
                     <div class="col-12">
-                    <div class="footer bg-secondary text-center p-3">
-                            Copyright &copy;2021 Putra
+                    <div class="footer bg-dark text-center p-3">
+                            Copyright &copy;2021 Reina
                         </div>
                     </div>
                 </div>

@@ -25,10 +25,10 @@
 <div class="container">
   <div class="row">
     <div class="col-12 p-3 bg-white">
-        <h3>Tambah jenis kategori</h3>
+        <h3>Tambah Kategori Menu</h3>
         <form method="post">  
             <div class="mb-3">
-                <input type="text" name="nama_kategori" placeholder="Jenis Bunga" class="form-control" required>
+                <input type="text" name="nama_kategori" placeholder="Kategori Menu" class="form-control" required>
             </div>
             <a href="kategori.php" class="btn btn-success" >Kembali</a>
             <button type="submit" class="btn btn-primary" name="submit" >Simpan</button>
