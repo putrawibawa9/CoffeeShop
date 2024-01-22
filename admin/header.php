@@ -20,7 +20,7 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav">
-        <a class="nav-link menu-home" aria-current="page" href="http://localhost/CoffeeShop/admins/index.php">Home</a>
+        <a class="nav-link menu-home" aria-current="page" href="../admins/index.php">Home</a>
         <a class="nav-link menu-category" href="../admins/kategori.php">Menu</a>
         <a class="nav-link menu-binatang" href="../admins/kopi.php">Detail</a>
         <a class="nav-link" href="../admin/logout.php">logout</a>

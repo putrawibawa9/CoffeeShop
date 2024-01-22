@@ -1,6 +1,6 @@
 <div class="row">
                     <div class="col-12">
-                    <div class="footer bg-dark text-center p-3">
+                    <div class="footer bg-dark text-center p-3 text-light">
                             Copyright &copy;2021 Reina
                         </div>
                     </div>
